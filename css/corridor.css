@@ -1,0 +1,24 @@
+body {
+	margin: 0;
+	padding: 0;
+	z-index: -1;
+	font-family: 'Shadows Into Light', cursive;
+	height: 100vh;
+	width: 100%;
+    overflow: hidden;
+    position: fixed;
+    background-color: black;
+}
+
+.wrapped {
+    height: 100%;
+    width: 100%;
+}
+
+.start img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	position: absolute;
+    z-index: -9;
+}

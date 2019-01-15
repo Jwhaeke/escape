@@ -1,0 +1,85 @@
+body {
+	margin: 0;
+	padding: 0;
+	z-index: -1;
+	font-family: 'Shadows Into Light', cursive;
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+}
+
+/* Start page button */
+
+#begin {
+	margin-left: 40%;
+	margin-top: 5%;
+}
+
+#begin button{
+	border: 1px solid black;
+
+}
+
+/* Start page txt */
+
+#intro {
+	font-size: 40px;
+	margin-top: 10%;
+	text-align: center;
+}
+
+.start img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	position: absolute;
+	z-index: -9;
+}
+
+.screen {
+    opacity: 0.5;
+    position: absolute;
+    border-radius: 5px;
+    border: 1px solid black;
+    z-index: 99;
+    margin-top: 17%;
+    margin-left: 20%;
+    overflow: hidden;
+    height: 32vh;
+    width: 32%;
+    background-color: black;
+}
+
+#writeMore {
+	margin-top: 30%;
+	text-align: center;
+	font-family: 'Creepster', cursive;
+	font-size: 50px;
+	color: #af111c;
+	
+}
+
+.screen video {
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+}
+
+#explain {
+	font-family: 'Creepster', cursive;
+	font-size: 50px;
+	color: #af111c;
+	text-align: center;
+	padding-top: 20px;
+
+}
+
+#buttonOne {
+	/* margin-top: 35%; */
+	text-align: center;
+	font-family: 'Creepster', cursive;
+	font-size: 50px;
+	color: #af111c;
+
+	display: none;
+}

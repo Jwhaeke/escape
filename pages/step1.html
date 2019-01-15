@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>De eerste stap</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link href="../css/stepone.css" type="text/css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
+
+	<script src="../javascript/stepone.js"></script>
+
+</head>
+	<body>
+    
+    <div class="wrapped">
+        <div class="start">
+            <img src="https://images.pexels.com/photos/40748/ghosts-gespenter-spooky-horror-40748.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt=""></a>
+        </div>
+        <audio id="sound">
+            <source src="../music/Scary.mp3" loop type="audio/mp3">
+        </audio>
+
+        <div id="box" class="fixed-bottom">
+            <div id="txt">
+                Je loopt de kamer binnen en hebt gelijk het gevoel dat er iemand achter je staat. Maar als je om kijkt zie je alleen een schaduw die weg duikt...
+            </div>
+        </div>
+
+        <div id="clue1" class="fixed-top">
+            <img id="spooky" src="https://i.pinimg.com/236x/39/88/25/398825764b89ab551d646732b3199749--freaky-clowns-evil-clowns.jpg" alt="">
+            <a id="click1" href="" onclick="showPainting(); return false;"><div id="clicker"></div></a>
+        </div>
+
+        <div id="clue2">
+                <a id="click2" href="" onclick="highFive(); return false;"><div id="clicker2"></div></a>
+        </div>
+
+        <div class="fixed-top" id="clue3">
+                <a id="click3" href="" onclick="sit(); return false;"><div id="clicker3"></div></a>
+        </div>
+
+        <div id="firePlace">
+                <a id="click4" href="../pages/key1.html"><div id="clicker4"></div></a>
+        </div>
+
+        <div class="door1">
+                <a id="locked" href="" onclick="locked(); return false;"> <div id="locked1"></div> </a>
+        </div>
+
+    </div>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	</body>
+</html>

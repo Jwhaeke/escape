@@ -1,0 +1,98 @@
+body {
+	margin: 0;
+	padding: 0;
+	z-index: -1;
+	font-family: 'Shadows Into Light', cursive;
+	height: 100vh;
+	width: 100%;
+    overflow: hidden;
+    position: fixed;
+    background-color: black;
+}
+
+.wrapped {
+    height: 100%;
+    width: 100%;
+}
+
+.start img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	position: absolute;
+    z-index: -9;
+}
+
+#toy {
+    display: none;
+}
+
+#box {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 5px;
+    opacity: 0.4;
+    word-wrap: break-word;
+    margin: 2%;
+}
+
+#txt {
+    padding: 5px;
+    color: #af111c;
+    font-weight: bold;
+    /* display: none; */
+}
+
+.clue1 {
+    margin-left: 52%;
+    height: 200px;
+    width: 200px;
+    /* background-color: white; */
+    padding-top: 29%;
+}
+
+#clicker {
+    height: 50px;
+    width: 50px;
+    /* background-color: tomato; */
+    display: none;
+}
+
+.clue2 {
+    margin-left: 55%;
+    height: 50px;
+    width: 100px;
+}
+
+#clicker2 {
+    height: 50px;
+    width: 50px;
+    /* background-color: blue; */
+    margin-top: 70%;
+    display: none;
+}
+
+#dollShow {
+    display: none;
+}
+
+#hand {
+    height: 200px;
+    width: 200px;
+    /* background-color: antiquewhite; */
+    margin-left: 43%;
+    border-radius: 50%;
+    margin-top: 20%;
+    display: none;
+}
+
+#face {
+    height: 200px;
+    width: 200px;
+    /* background-color: antiquewhite; */
+    margin-left: 50%;
+    border-radius: 50%;
+    margin-top: 10%;
+    display: none;
+}
